@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABA Bank</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="icon" href="img/aba.png" type="img/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Siemreap&display=swap" rel="stylesheet">
+     <script> 
+document.addEventListener('contextmenu', event=> event.preventDefault()); 
+document.onkeydown = function(e) { 
+if(event.keyCode == 123) { 
+return false; 
+} 
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+return false; 
+} 
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+return false; 
+} 
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+return false; 
+} 
+} 
+</script>    
+    <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");</script>
+</head>
+
+<body>
+    <style>
+        .dangrek-regular {
+            font-family: "Dangrek", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        .siemreap-regular {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        .dangrek-regular {
+            font-family: "Dangrek", serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        h1 {
+            font-family: "Candara", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 2.5em;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        p {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.9;
+            color: #ffffff;
+
+        }
+
+        span {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-family: "Khmer OS Moul Light", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 2.2em;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        a {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.2;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        textarea {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.9;
+            color: #ffffff;
+            resize: none;
+            padding: 10px;
+            border: none;
+            margin: 10px 0;
+            border-radius: 5px;
+            width: 100%;
+            height: 200px;
+            border-radius: 5px;
+        }
+
+        input {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.9;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+            margin: 10px 0;
+            border-radius: 5px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        Button {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.2;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #007bff;
+            cursor: pointer;
+        }
+
+        div {
+            font-family: "Siemreap", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+     </style>
+    <div id="tm-bg"></div>
+    <div id="tm-wrap">
+        <div class="tm-main-content">
+            <div class="container tm-site-header-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
+                        <div class="tm-site-header">
+                            <h1 class="mb-4">ABA BANK</h1>
+                            <img src="img/underline.png" class="img-fluid mb-4">
+                            <p>សូមស្វាគមន៏មកកាន់គេហទំព័រ</p> <p>ចិ សិរីឧត្តម</p>        
+                        </div>                        
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="content">
+                            <div class="grid">
+                                <div class="grid__item" id="home-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-home fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">ទំព័រដើម</span>
+                                            <div class="product__bg"></div>        
+                                        </div>                                    
+                                        <div class="product__description">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title">សូមស្វាគមន៏</h2>        
+                                                </div>
+                                            </div>                                        
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <img src="img/welcome-1.jpg" class="img-fluid mb-3">
+                                                    <p>សូមស្វាគមន៍មកកាន់ធនាគារ ABA!</p>
+
+<p>ABA គឺជា​គ្រឹះស្ថាន​ហិរញ្ញវត្ថុឯកជនដែលមានឈានមុខក្នុងវិស័យហិរញ្ញវត្ថុនៅកម្ពុជា។ ធនាគារនេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 1996 ក្នុងឈ្មោះ "ធនាគារវឌ្ឍនៈអាស៊ី"។
+
+បច្ចុប្បន្ន ABA បានក្លាយជាធនាគារពាណិជ្ជធំបំផុតនៅកម្ពុជា ដោយមានគោលជំហរមុខជាចម្បងលើទ្រព្យសកម្ម, ប្រាក់បញ្ញើ, កម្ចី និងប្រាក់ចំណេញ។ ព័ត៌មាននេះផ្អែកលើរបាយការណ៍ត្រួតពិនិត្យប្រចាំឆ្នាំ 2021 ដល់ 2023 របស់ធនាគារជាតិនៃកម្ពុជា។</p>
+                                                        
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    
+                                                    <p>ABA ផ្តល់សេវាកម្មដែលមានគុណភាពខ្ពស់ដើម្បីបំពេញតម្រូវការរបស់អតិថិជនគ្រប់ជួរជាមួយការប្រសើរនៅជាអន្ដរ។
+
+ធនាគារអាចបម្រើអតិថិជនគ្រប់ជាន់ថ្នាក់ទាំងសហគ្រាសធុនតូច និងមធ្យម (SMEs), អាជីវកម្មខ្នាតតូច, និងរូបវន្តបុគ្គល។ ABA មានបណ្ដាញសាខាចំនួន 99 និងម៉ាស៊ីនស្វ័យសេវាជាង 1,700 ទូទាំងប្រទេស។ រួមជាមួយនឹងសេវាធនាគារអនឡាញ និងកម្មវិធីធនាគារតាមទូរស័ព្ទដ៏ទំនើប សេវាកម្ម ABA បានឆ្លើយតបទៅនឹងសេចក្តីត្រូវការរបស់អតិថិជននៅគ្រប់ទីកន្លែង និងគ្រប់ពេលវេលា។ <a rel="nofollow" href="https://www.facebook.com/cheksereyodam/" target="_parent">ទំនាក់ទំនងមកកាន់ខ្ញុំ👈</a></p>
+                                                    <img src="img/welcome-2.jpg" class="img-fluid">
+                                                </div>                                        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-users fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">អំពីធនាគារ</span>
+                                            <div class="product__bg"></div>            
+                                        </div>                                     
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">អំពីធនាគារ</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row tm-reverse-sm">
+                                                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                                        <p class="mb-4">ធនាគារ ABA គឺជា​ធនាគារបុត្រសម្ពន្ធរបស់ ធនាគារជាតិកាណាដា (National Bank of Canada - NBC) ដែលជាគ្រឹះស្ថានហិរញ្ញវត្ថុឈានមុខមួយនៅកាណាដា។ NBC មានទ្រព្យសកម្មដែលមានតម្លៃជាង 321 ពាន់លានដុល្លារ​អាមេរិក (USD) គិតត្រឹមថ្ងៃទី 30 ខែមេសា​ឆ្នាំ2024 និង​មាន​បណ្តាញ​ធនាគារ​ឆ្លើយឆ្លង​ដ៏​ធំ​នៅ​ទូ​ទាំង​ពិភពលោក​។​</p>
+                                                        <p class="mb-4">
+                                                            ក្នុង​នាម​ជា​ភាគ​ហ៊ុ​និក​មួយ​របស់​ធនាគារ​ ABA​ តាំងពី​ឆ្នាំ​
+                                                            2014​ មក​
+                                                            ធនាគារជាតិ​កា​ណា​ដា​បាន​ក្លាយជា​គ្រឹះស្ថាន​ហិរញ្ញវត្ថុ​អា​មេ​រិ​ក​ខាងជើង​ទី​មួយ​
+                                                            ដែល​ឈាន​ជើង​ចូល​វិស័យ​ធនាគារ​នៅ​កម្ពុជា​។</p>
+                                                        <p class="mb-5">ការមាន NBC ជាដៃគូសហការបន្តរបស់ ABA បានរួមចំណែកបំផុសសក្តានុពល និងគុណភាពសេវាកម្មរបស់ ABA នៅក្នុងទីផ្សារកម្ពុជា។</p>
+                                                        <a href="#" class="btn tm-btn-gray"> អានបន្ថែម</a>        
+                                                    </div>                                                
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
+                                                        <img src="img/team.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">ចក្ចុវិស័យ</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                                 
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">ចក្ចុវិស័យ</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <p>ចក្ខុវិស័យរបស់ធនាគារ
+                                                            គឺដើម្បីក្លាយជាធនាគារលំដាប់លេខមួយប្រចាំប្រទេស
+                                                            លើផ្នែកផ្គត់ផ្គង់សេវាកម្មធនាគារគួរជាទីទុកចិត្ត
+                                                            ងាយស្រួលប្រើប្រាស់ ប្រកបដោយបច្ចេកវិទ្យាទំនើបបំផុត
+                                                            និងងាយស្រួលក្នុងការទទួលបាន។
+                                                            យើងមានបំណងក្លាយជាធនាគារមួយដែលប្រជាជនកម្ពុជាជឿទុកចិត្តក្នុងការ
+                                                            បំពេញតម្រូវការសេវាធនាគារផ្ទាល់ខ្លួន
+                                                            និងសម្រាប់អាជីវកម្មរបស់ពួកគាត់ផងដែរ។</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="p-sm-4 p-2 tm-img-container">
+                                                            <div class="tm-img-slider" id="tmImgSlider">
+                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-01-tn.jpg" alt="Image 1" class="img-fluid tm-slider-img"></a>
+                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-02-tn.jpg" alt="Image 2" class="img-fluid tm-slider-img"></a>
+                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-03-tn.jpg" alt="Image 3" class="img-fluid tm-slider-img"></a>
+                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-04-tn.jpg" alt="Image 4" class="img-fluid tm-slider-img"></a>
+                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-05-tn.jpg" alt="Image 5" class="img-fluid tm-slider-img"></a>
+                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-06-tn.jpg" alt="Image 6" class="img-fluid tm-slider-img"></a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-comments fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">ទំនាក់ទំនង</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                              
+                                        <div class="product__description">
+                                            <div class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">ទំនាក់ទំនង</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4">
+                                                    <div class="col-12">
+                                                        <p>ដើម្បី​ភាព​ងាយស្រួល​សម្រាប់​អតិថិជន​
+                                                            យើង​បាន​ដាក់​ឲ្យ​ប្រើប្រាស់​ទូរស័ព្ទ​ចំនួន​ពីរ​ខ្សែ​
+                                                            ដែល​លោក​អ្នក​អាច​ទាក់ទង​មក​បាន​ គ្រប់ពេលវេលា​ 24​ ម៉ោង​លើ​
+                                                            24​ ម៉ោង​ ។</p>
+                                                            <p>☎️ ប្រព័ន្ធទូរស័ព្ទឥតគិតថ្លៃ 1 800 203 203 ឬ +855 98 203 333
+                                                            សម្រាប់​ព័ត៌មាន​ទូទៅ។​
+                                                        </p>
+                                                       
+                                                            
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <form action="index.html" method="post" class="contact-form">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6">
+                                                                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                                                </div>
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email">
+                                                                  <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                                                </div>
+                                                            </div>                                                        
+                                                            <div class="form-group">
+                                                              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-primary tm-btn-submit">បញ្ជូន</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+                
+            <footer>
+                <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2020</span> ABA BANK
+                
+                Designer: <a rel="nofollow" href="https://web.facebook.com/cheksereyodam/" class="tm-text-highlight">Sereyodam Chek</a></p>
+            </footer>
+        </div> 
+    </div>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>          
+    <script src="slick/slick.min.js"></script>                   
+    <script src="js/anime.min.js"></script>                     
+    <script src="js/main.js"></script>  
+    <script>      
+
+        function setupFooter() {
+            var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
+
+            var main = $('.tm-main-content');
+
+            if($(window).height() < pageHeight) {
+                main.addClass('tm-footer-relative');
+            }
+            else {
+                main.removeClass('tm-footer-relative');   
+            }
+        }
+
+        $(function(){
+
+            setupFooter();
+
+            $(window).resize(function(){
+                setupFooter();
+            });
+
+            $('.tm-current-year').text(new Date().getFullYear());            
+        });
+
+    </script>             
+
+</body>
+</html>
